@@ -35,7 +35,7 @@
 	</tr>
 	<tr>
 		<td>Mogan Gim*</td>		
-		<td>Faculty of Medicine, Imperial College London, London, United Kingdom</td>
+		<td>Faculty of Medicine, <br>Imperial College London, London, United Kingdom</td>
 		<td>akim@korea.ac.kr</td>
 	</tr>
 	<tr>
