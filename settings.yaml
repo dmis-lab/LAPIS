@@ -1,0 +1,56 @@
+lapis_yanolja+EEVE-Korean-Instruct-10.8B-v1.0_True:
+  openai:
+    api_key:
+  wandb:
+    api_key:
+    project_name: CIKM_Lapis_2024
+    group_name: 240423_main_experiment
+    session_name: lapis_yanolja+EEVE-Korean-Instruct-10.8B-v1.0_True
+  path:
+    dataset: /lapis/data/
+    checkpoint: /lapis/checkpoint/
+    template: /lapis/template/
+    result: /lapis/result/
+  dataprep:
+    raw_dataset: CI_hypothesis_v1
+    finetuning_dataset: CI_hypothesis_v1
+    instruction_method: correct
+    subsample: 1.0
+    years_train: null
+    years_dev:
+    - 2020
+    years_test:
+    - 2021
+    - 2022
+    - 2023
+  finetune:
+    device: cuda
+    report_to: wandb
+    llm_backbone: yanolja/EEVE-Korean-Instruct-10.8B-v1.0
+    lora:
+      enabled: true
+      qlora: true
+      r: 8
+      alpha: 32
+      dropout: 0.05
+      bias: none
+      task_type: CAUSAL_LM
+    per_device_train_batch_size: 4
+    gradient_accumulation_steps: 1
+    num_train_epochs: 5
+    learning_rate: 0.0001
+    fp16: true
+    logging_steps: 1000
+    output_dir: null
+    optim: paged_adamw_8bit
+  inference:
+    checkpoint_name: null
+    template_method: v3_zs_reasoning+para_kor
+    retrieval:
+      embedding_library: openai
+      embedding_model: text-embedding-ada-002
+      vector_library: faiss
+      vector_store: faiss_all_summary_v2_index
+    generation:
+      max_new_tokens: 8
+    start_batch: 0
