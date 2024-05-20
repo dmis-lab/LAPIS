@@ -35,7 +35,7 @@
 	</tr>
 	<tr>
 		<td>Mogan Gim*</td>		
-		<td>Data Mining and Information Systems Lab,<br>Korea University, Seoul, South Korea</td>
+		<td>Faculty of Medicine, Imperial College London, London, United Kingdom</td>
 		<td>akim@korea.ac.kr</td>
 	</tr>
 	<tr>
