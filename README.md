@@ -30,12 +30,12 @@
 	</tr>
  	<tr>
 		<td>Donghee Choi</td>		
-		<td>Data Mining and Information Systems Lab,<br>Korea University, Seoul, South Korea</td>
+		<td>Department of Metabolism, Digestion and Reproduction, <br>Imperial College London, London, United Kingdom</td>
 		<td>donghee.choi@imperial.ac.uk</td>
 	</tr>
 	<tr>
 		<td>Mogan Gim*</td>		
-		<td>Faculty of Medicine, <br>Imperial College London, London, United Kingdom</td>
+		<td>Data Mining and Information Systems Lab,<br>Korea University, Seoul, South Korea</td>
 		<td>akim@korea.ac.kr</td>
 	</tr>
 	<tr>
