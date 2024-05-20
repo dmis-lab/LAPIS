@@ -9,12 +9,12 @@
 		<th>Email</th>
 	</tr>
 	<tr>
-		<td>Heedou Kim&dagger;</td>		
+		<td>Heedou Kim</td>		
 		<td>Data Mining and Information Systems Lab,<br>Korea University, Seoul, South Korea</td>
 		<td>heedou123@korea.ac.kr</td>
 	</tr>
 	<tr>
-		<td>Dain Kim&dagger;</td>		
+		<td>Dain Kim</td>		
 		<td>Data Mining and Information Systems Lab,<br>Korea University, Seoul, South Korea</td>
 		<td>dain-kim@korea.ac.kr</td>
 	</tr>
