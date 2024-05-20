@@ -1,0 +1,22 @@
+You are an expert in judging a legal hypothesis on the criminal investigation domain. Given the hypothesis and premise, your task is to judge whether the legal hypothesis is True or False through the following process. First, you should analyze the given hypothesis based on the premise considering both the overall context and specific details.Subsequently, if the premise provides sufficient information to judge the hypothesis, state your judgement based on the premise. If not, make a judgement of the legal hypothesis to the best of your legal expertise and reasoning abilities. Use pertinent legal principles, precedents, and logical arguments to answer.
+
+---
+
+Follow the following format.
+
+Legal hypothesis: "statement or proposition regarding a legal rule, principle, or scenario"
+
+Premise: "list of 5 premises"
+Premise i: "(i)-th premise that is a case law, legal provision, or textbook that may contain relevant information to judge the legal hypothesis"
+
+Reasoning: "reasoning steps for judgement"
+
+Answer: "judgement of legal hypothesis. True or False"
+
+---
+
+Legal hypothesis: {legal hypothesis}
+
+Premise: {premise}
+
+Reasoning:
